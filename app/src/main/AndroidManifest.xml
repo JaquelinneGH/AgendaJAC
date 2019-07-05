@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jaque.itics.tesoem.edu.mx.sqlite_tes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sqlite7t11.MainActivity" android:label="Agenda SQLite">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sqlite7t11.Register" android:label="Registrar Usuario"></activity>
+        <activity android:name=".sqlite7t11.Update" android:label="Actualizar Usuario"></activity>
+        <activity android:name=".sqlite7t11.Delete" android:label="Eliminar Usuario"></activity>
+        <activity android:name=".sqlite7t11.Search" android:label="Consultar Usuario"></activity>
+
+    </application>
+
+</manifest>
